@@ -1,0 +1,13 @@
+
+// Function to Create Obstacle :
+
+if (create == 1)
+		{
+			CommonFunction::ApplySurface(Obs_1.obj_, g_screen, is, Obs_1.rect_.y);
+		}
+		else if (create == 0)
+		{
+			CommonFunction::ApplySurface(Obs_2.obj_, g_screen, is, Obs_2.rect_.y);
+		}
+
+// end of Function to Create Obstacle
